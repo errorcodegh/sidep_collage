@@ -1,0 +1,564 @@
+*{
+border: 0px;
+padding: 0px;
+margin: 0px;
+
+}
+
+body{ background: #541e1b;}
+
+#mobileview,#phoneview{
+	display: none;
+}
+
+
+}
+
+.headbar{
+  background: #541e1b;
+}
+
+ul{
+    background:#541e1b;
+    height: 5em;
+}
+
+ a{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    background: #541e1b;
+
+}
+ul li a{
+    padding: 20px;
+    line-height: 3.3em;
+    color: white;
+}
+
+ul li ul.drop li{
+    display: block;
+}
+
+ul li ul.drop {
+    width: 180%;
+    z-index: 1;
+    position: absolute;
+    display: none;
+    font-family: monospace;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: gold;
+}
+
+
+
+ul li:hover ul.drop{
+    display: block;
+} 
+
+ul li ul li ul.droper{
+    position: absolute;
+    display: none;
+    z-index: 1;
+    width: 130%;
+    top: 50px;
+    left: 100px;
+}
+
+
+ul li ul li:hover ul.droper{
+    display: block;
+}
+
+
+
+
+ul li ul li ul a{
+    line-height: 3em;
+}
+
+
+
+h6{font-size: 0.3em; opacity: 0.7;}
+
+h1{text-align: center; color: white; opacity: 0.6; line-height: 2em; 
+	}
+
+.top{
+	color: white;
+	text-decoration: none;
+	text-shadow: 2px 2px 1px black;
+	padding: 0em 0.9em;
+	display: inline-block;
+	line-height: 80px;
+	font-weight: bold;
+	font-size: 1.1em;	
+}
+
+.top1{
+	text-decoration: none;
+	font: 700 20px system-ui;
+	color: white;
+    padding-left: 4em;
+	background: none;
+	animation: fadeIn 1s infinite alternate;
+}
+
+.top1:hover{color: black;}
+
+
+h1{
+	text-align: center;
+}
+
+#img{
+	width: 300px;
+	height: 300px;
+}
+
+span{color: gold;}
+
+
+
+
+    @keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%;}
+45% { left: -100%;}
+50% { left: -200%;}
+70% { left: -200%;}
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+
+#slider{
+overflow: hidden;
+margin-top: 0;
+}
+
+#slider figure { 
+  position: relative;
+  width: 500%;
+  text-align: left;
+  animation: 16s slidy infinite; 
+}
+
+#slider figure img {
+    width: 20%;
+    float: left;
+    height: 500px;
+}
+
+
+ #fade p {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  font: italic bold 3em/1 Bodoni, serif;
+  color: gold;
+  text-align: center;
+  animation: fadeIn 1s infinite alternate;
+  }
+
+  #allnum {
+  width:  100%;
+  height: 250px;
+  display:  flex;
+  opacity: 0.9;
+}
+
+.run1,.run2,.run3{
+  margin-left: 10%;
+  border-radius: 50%;
+  font-size: 80px;
+  width:  20%;
+  height: 250px;
+  text-align: center;
+  font: 800 50px system-ui;
+  background: none;
+  color: white;
+}
+
+.rn{
+   text-align: center;
+   font-size: 25px;
+   padding-top: 0px;
+   line-height: 30px;
+   margin-top: 20px;
+}
+
+#num1,#num2,#num3{
+   margin-top: 0px;
+}
+  
+  @keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+
+
+#edu,#edu1,#edu2{
+	display: flex;
+}
+
+#ig{
+	width: 30%;
+	height: auto;	
+}
+
+#edu,#edu1,#edu2{
+		color: white;
+	font: 400 20px system-ui;
+	
+}
+
+#programes p{
+	opacity: 0.6;
+    font-family: monospace;
+    padding: 20px;
+}
+
+h2{
+	color: gold;
+	text-align: center;
+	opacity: 0.9;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+
+.footer-distributed{
+    background: saddlebrown;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+    line-height: 2em;
+
+
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+    color: #ffffff;;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span{
+    color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+    color: gold;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+    color: white;
+    font-weight: normal;
+    margin: 0;
+    letter-spacing: 0.2em;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+    width: 35%;
+}
+
+.footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: white;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+
+
+}
+
+.footer-distributed .footer-center h4{
+    display: inline-block;
+    color: white;
+    font-weight:200;
+    vertical-align: middle;
+    margin:0;
+    letter-spacing: 0.1em;
+
+}
+
+.footer-distributed .footer-center h4 span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+    letter-spacing: 0.2em;
+}
+
+.footer-distributed .footer-center h4 a{
+    color:  lightseagreen;
+    text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  white;
+    font-size: 0.8em;
+    font-family: monospace;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+    display: block; 
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+    .footer-distributed{
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+
+   
+}
+
+
+
+
+
+
+
+@media all and (max-width: 768px){
+
+	#mobileview{
+        display: none;
+       position: absolute;
+        width:  100%;
+        background:  cyan;
+        height: auto;
+        font-size: 1.5em;
+        text-decoration: none;
+        line-height:  60px;
+        text-align: center;
+    }
+
+
+
+	h6{width: 15em; font-size: 0.4em;}
+	h2{line-height: 2em;}
+
+	a {	text-decoration: none;}
+
+	#headbar{display: none;}
+
+   #phoneview{
+   	display: block;
+   	width: 100vw;
+   	height: 5em;
+   	background: #bc544b;
+   }
+
+   #list{padding-top: 15px;}
+
+   #op{float: right; font-size: 1.7em; background: none; color: white; padding-right: 1em;}
+   marquee{color: white; text-transform: lowercase;}
+   h3{color: white; font-size: 1.2em; }
+
+   #donate{
+   	float: left; 
+   	padding-left: 14px; 
+   	font-size: 1.3em;
+    background: none;
+    color: white;
+    opacity: 0.9;
+    animation: fadeIn 1s infinite alternate;
+}
+
+  @keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+
+
+
+#allnum{
+		display: inline-block;
+		text-align: center;	
+		opacity: none;
+		line-height: 1em;
+	}
+
+	.run1,.run2,.run3{
+    padding:  0.1em 1em;
+    font-size: 2.5em;
+}
+
+.rn{
+	font-size: 0.1em;
+    font: 700 40px system-ui;
+    text-align: center;
+}
+
+#num1,#num2,#num3{
+	padding: 0em 1.6em;
+}
+
+
+#edu,#edu1,#edu2{
+	display: block;
+}
+
+#ig{
+	width: 100%;
+	height: auto;	
+}
+
+
+ul li{
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+
+ul li ul.drop {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: none;
+    font-family: monospace;
+}
+
+ul li ul li ul.droper{
+    position: revert-layer;
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+ul{
+	background: silver;
+	height: 5em;
+}
+
+
+ a{
+	list-style: none;
+}
+
+
+ul li{
+	background: silver;
+	display: inline-block;
+	position: relative;
+
+}
+
+ul li a{
+	padding: 20px;
+	line-height: 4.3em;
+}
+
+ul li ul.drop li{
+	display: block;
+}
+
+ul li ul.drop {
+	width: 200%;
+	z-index: 1;
+	position: absolute;
+	display: none;
+	line-height: 40px;
+	font-family: monospace;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+ul li a:hover{
+	color: gold;
+}
+
+
+ul li:hover ul.drop{
+	display: block;
+}	
+
+ul li ul li ul.droper,.droper1{
+	position: absolute;
+	display: none;
+	z-index: 1;
+	width: 400px;
+	top: 50px;
+	left: 100px;
+}
+
+ul li ul li ul.droper1{
+	width: auto;
+}
+
+ul li ul li ul a{
+	line-height: 3em;
+}
+
+ul li ul li:hover ul.droper,.droper1{
+	display: block;
+}
+
+
+
+	</style>
+</head>
+
+<body>
+
+<div id="toptop">
+	<ul class="drop">
+	<li><a href="homepage.html" class="top">Home</a></li>
+	<li><a href="homepage.html" class="top">Manu</a>
+		<ul class="drop">
+			<li><a href="#">About-US</a>
+				<ul class="droper1">
+					<li><a href="#">vision and mission</a></li>
+			        <li><a href="#">Founders/directors</a></li>
+			    </ul>
+
+			</li>
+		</ul>
+	</li>
+		<li><a href="#">profile</a>
+			<ul class="drop">
+				<li><a href="#">code and ethicks</a></li>
+				<li><a href="#">constitution</a></li>
+				<li><a href="#">empowerment</a></li>
+			</ul></li>
+			<li><a href="#">edu empowerment</a>
+				<ul class="drop">
+				<li><a href="#">scholarship forms</a></li>
+				<li><a href="#">enter requirement</a></li>
+				<li><a href="#">education scholarship</a>
+					<ul class="droper">
+					<li><a href="#">certificate coarses</a></li>
+                    <li><a href="#">diploma to degree coarses</a></li>
+                    <li><a href="#">continue professional coarses</a></li>
+                    <li><a href="#">mastering coarses</a></li>
+                    <li><a href="#">phd coarses</a></li>
+                    <li><a href="#">single subjects diploma coarse</a></li>
+                    <li><a href="#">skills acquisition</a></li>
+                </ul>
+
+				</li>	
+	  		   </ul></li>
+				<li><a href="#">projects</a></li>
+				<li><a href="#">scholarship form</a></li>
+			</ul>
+</div>
+
+
+
+</body>
+
+
+
+
